@@ -9,10 +9,6 @@ MOSAIRE is a continual-learning framework for histopathology whole-slide image
 classification. It is evaluated on six sequential cancer subtype
 classification tasks using CONCH-v1 features.
 
-This lightweight repository is intended for paper presentation. It contains
-the main figures only; source code, datasets, model checkpoints, and training
-artifacts are not included.
-
 ## Main Figures
 
 The main paper figures are available in [`fig/`](fig/).
