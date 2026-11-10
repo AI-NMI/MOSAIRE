@@ -4,6 +4,10 @@ This repository contains the official figures of the paper: **MOSAIRE:
 Mitigating Route-Level Structural Drift via Evidence Compression in Continual
 WSI Learning**.
 
+![Overview of MOSAIRE](fig/Fig1_MOSAIRE_overview.png)
+
+[Download the publication-quality PDF](fig/Fig1_MOSAIRE_overview.pdf).
+
 ## 1. Overview
 
 Continual whole-slide image (WSI) classification requires a model to learn new
@@ -63,23 +67,6 @@ Compressing 64 patch tokens into 32 route tokens improves mean accuracy by
 cross-attention cost. Across 90 Task 1 test slides, MAG reduces final mean
 attention drift from 59.79% to 57.11%.
 
-## 5. Main Figure
-
-The overview figure presents the sequential WSI task stream and the Discover,
-Condense, and Consolidate stages of MOSAIRE:
-
-- [MOSAIRE overview (PDF)](fig/Fig1_MOSAIRE_overview.pdf)
-
-## 6. Citation
-
-```bibtex
-@misc{qian2026mosaire,
-  title  = {MOSAIRE: Mitigating Route-Level Structural Drift via Evidence Compression in Continual WSI Learning},
-  author = {Fangji Qian and Weitao Wang and Yanyan Huang and Meng Niu and Yuanxue Gao and Zihao Zhao and Kuangyu Shi and Lequan Yu and Yu Fu and Cheng Zhuo},
-  year   = {2026}
-}
-```
-
-## 7. License
+## 5. License
 
 This repository is released under the [MIT License](LICENSE).
