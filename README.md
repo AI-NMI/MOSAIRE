@@ -1,17 +1,26 @@
 # MOSAIRE
 
-Official repository for **MOSAIRE**.
+This repository contains the official main figures for the paper:
+**MOSAIRE: [Full Paper Title]**.
 
-The paper title, author list, publication link, and citation will be added
-after they are finalized.
+## Overview
 
-## Main figures
+MOSAIRE is a continual-learning framework for histopathology whole-slide image
+classification. It is evaluated on six sequential cancer subtype
+classification tasks using CONCH-v1 features.
 
-The main paper figures will be provided in [`fig/`](fig/).
+This lightweight repository is intended for paper presentation. It contains
+the main figures only; source code, datasets, model checkpoints, and training
+artifacts are not included.
+
+## Main Figures
+
+The main paper figures are available in [`fig/`](fig/).
 
 ## Citation
 
-Citation information will be added when the paper metadata is public.
+If you find this work useful, please cite our paper. The BibTeX entry will be
+added after the paper metadata is finalized.
 
 ## License
 
